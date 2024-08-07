@@ -20,7 +20,7 @@ I'm Dave, a passionate web developer with a wealth of experience in various tech
   ___
 
 ### Project 2: Image Optimiser
-- **Description**: With Google Page Insights scores in mind, I developed a PHP/jQuery Ajax tool to optimise JPG/PNG images and create WebP versions (a second-generation format). The tool adjusts image quality and generates WebP files using the PHP GD Library. It also includes custom HTACCESS rules to ensure browser compatibility and file existence, providing both JPG and WebP formats. The tool efficiently processes large volumes of images to prevent server timeouts.
+- **Description**: With Google Page Insights scores in mind, I developed a PHP/jQuery Ajax tool to optimise JPG/PNG images and create WebP versions (a second-generation format). The tool adjusts image quality and generates WebP files using the PHP GD Library. It includes custom HTACCESS rules to ensure browser compatibility and verify file existence, providing both JPG and WebP formats. Additionally, the tool efficiently processes large volumes of images to prevent server timeouts. This feature was successfully implemented on a custom CMS, where it handled direct uploads of images.
 - **Key Features**:
   - Image Optimization: Converts images to a specific quality and creates WebP versions.
   - Bulk Processing: Handles over 10,000 images across multiple directories, ensuring efficient processing without server timeouts.
@@ -29,8 +29,9 @@ I'm Dave, a passionate web developer with a wealth of experience in various tech
   - Fixes mime types issues with JPG/JPEG and PNG
 - **Technologies Used**: PHP, jQuery, Ajax, PHP / PHP GD Library, HTACCESS
 - **TODO**:
-  -  To review file path extensions as it doesn't respect existing .JPG or .jpg which on linux systems will create two files.
-  -  To strip out unndeeded files in this project, was going to be included into a custom CMS (discontinued)
-  -  To do a direct replacement of images
-  -  I fully intend to create a new repo of this and add support for a Wordpress Plugin with some options.
+  - Review File Path Extensions: Ensure the tool correctly handles existing .JPG and .jpg extensions to avoid creating duplicate files on Linux systems.
+  - Clean Up Unneeded Files: Remove obsolete files from the project, originally intended for a custom CMS (now discontinued).
+  - Add Optimisation Options: Provide options to either create only WebP files or optimise legacy image formats.
+  - Implement Image Size Cap: Add an optional restriction to limit the maximum width or height of images to prevent issues with extremely large uploads (e.g., 10000x8000 pixels).
+  - Develop WordPress Plugin: Create a new repository to develop a WordPress plugin with additional features and integration options.
 - **Repository Link**: [GitHub Repository](https://github.com/davey1992/Image-Optimiser)
