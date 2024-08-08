@@ -12,3 +12,6 @@ I developed a Telegram bot using Node.js that leverages the Telegram HTTP API. T
 
 ### [Project 2: Image Optimiser](https://github.com/davey1992/Image-Optimiser)
 With Google Page Insights scores in mind, I developed a PHP/jQuery Ajax tool to optimise JPG/PNG images and create WebP versions (a second-generation format). The tool adjusts image quality and generates WebP files using the PHP GD Library. It includes custom HTACCESS rules to ensure browser compatibility and verify file existence, providing both JPG and WebP formats. Additionally, the tool efficiently processes large volumes of images to prevent server timeouts. This feature was successfully implemented on a custom CMS, where it handled direct uploads of images.
+
+### [Project 3: CMS Frontend (Discountinued)](https://github.com/davey1992/CMS-Frontend)
+As a personal project, I set out to reskin a custom Content Management System (CMS) that I had previously developed. This hobby project led to the creation of the Image Optimiser tool, which aimed to address image-related issues encountered in my day job. Although the idea was never formally presented or fully integrated, it was a rewarding project to work on. This repository showcases the tool and highlights the use of HTML, CSS, JavaScript, and jQuery.
