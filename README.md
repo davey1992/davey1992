@@ -17,3 +17,8 @@ ___
 
 ### [Project 3: CMS Frontend (Discountinued)](https://github.com/davey1992/CMS-Frontend)
 As a personal project, I set out to reskin a custom Content Management System (CMS) that I had previously developed. This hobby project led to the creation of the Image Optimiser tool, which aimed to address image-related issues encountered in my day job. Although the idea was never formally presented or fully integrated, it was a rewarding project to work on. This repository showcases the tool and highlights the use of HTML, CSS, JavaScript, and jQuery.
+
+___
+
+### [Project 4: Front End Animations](https://github.com/davey1992/animations-frontend)
+Throughout my development career, I've created several unique and quirky front-end animations. These elements have been extracted and compiled into a standalone project files, ready for integration into future projects. The features include various depth effects during scrolling, progressive background image animations, SVG draw animations, and custom functionalities that predate native browser support.
